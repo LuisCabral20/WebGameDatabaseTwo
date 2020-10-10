@@ -1,0 +1,55 @@
+@charset "ISO-8859-1";
+html{
+	margin: 0;
+	height: 100%;
+}
+
+body{
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  background: linear-gradient(to bottom right, #000000, #5716B5);
+}
+
+h1, h2, p, label, tr{
+  color: #FFFFFC;
+}
+
+form{
+	display: table;
+	margin: auto;
+  	width: 50%;
+    padding: 10px
+}
+
+label{
+	margin-right 10px;
+	display: table-cell;
+}
+
+input{
+	margin: 4px;
+	display: table-cell;
+	width: 100%;
+}
+
+table{
+	margin: auto;
+}
+
+p{
+	display: table-row; 
+}
+
+div{
+	width: 100%;
+}
+
+a{
+	  border-style: solid;
+	  background-color: #5716B5;
+	  color: white;
+	  padding: 5px;
+	  text-decoration: none;
+	  width: 100%;
+}
